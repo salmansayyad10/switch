@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="3dp"
+    tools:context=".MainActivity" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:stretchColumns="*"
+        android:layout_height="1dp">
+
+        <TableRow>
+            <ViewFlipper
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/v_flipper"
+                android:layout_span="2"
+                android:layout_weight="2"
+                />
+        </TableRow>
+
+        <TableRow>
+            <ImageButton
+                android:id="@+id/angle"
+                app:srcCompat="@drawable/angle1"
+                android:contentDescription="@string/angle" />
+            <ImageButton
+                android:id="@+id/area"
+                app:srcCompat="@drawable/area1"
+                android:contentDescription="@string/area"/>
+            <ImageButton
+                android:id="@+id/ascii"
+                app:srcCompat="@drawable/ascii1"
+                android:contentDescription="@string/ascii"/>
+            <ImageButton
+                android:id="@+id/binary"
+                app:srcCompat="@drawable/binary1"
+                android:contentDescription="@string/binary"/>
+        </TableRow>
+        <TableRow>
+            <ImageButton
+                android:id="@+id/bitcoin"
+                app:srcCompat="@drawable/bitcoin1_1"
+                android:contentDescription="@string/bitcoin"/>
+            <ImageButton
+                android:id="@+id/bitcoin2"
+                app:srcCompat="@drawable/bitcoin2_1"
+                android:contentDescription="@string/bitcoin2"/>
+
+
+            <ImageButton
+                android:id="@+id/circle"
+                app:srcCompat="@drawable/circle1"
+                android:contentDescription="@string/circle"/>
+            <ImageButton
+                android:id="@+id/currency"
+                app:srcCompat="@drawable/currency1"
+                android:contentDescription="@string/currency"/>
+        </TableRow>
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/current"
+                app:srcCompat="@drawable/current1"
+                android:contentDescription="@string/current"/>
+            <ImageButton
+                android:id="@+id/energy"
+                app:srcCompat="@drawable/energy1"
+                android:contentDescription="@string/energy"/>
+            <ImageButton
+                android:id="@+id/force"
+                app:srcCompat="@drawable/force1"
+                android:contentDescription="@string/force"/>
+
+            <ImageButton
+                android:id="@+id/gst"
+                app:srcCompat="@drawable/gst1"
+                android:contentDescription="@string/gst"/>
+        </TableRow>
+        <TableRow>
+            <ImageButton
+                android:id="@+id/length"
+                app:srcCompat="@drawable/length1"
+                android:contentDescription="@string/length"/>
+            <ImageButton
+                android:id="@+id/mass"
+                app:srcCompat="@drawable/mass1"
+                android:contentDescription="@string/mass"/>
+            <ImageButton
+                android:id="@+id/operation"
+                app:srcCompat="@drawable/op1"
+                android:contentDescription="@string/operation"/>
+            <ImageButton
+                android:id="@+id/power"
+                app:srcCompat="@drawable/power1"
+                android:contentDescription="@string/power"/>
+        </TableRow>
+        <TableRow>
+            <ImageButton
+                android:id="@+id/pressure"
+                app:srcCompat="@drawable/pressure1"
+                android:contentDescription="@string/pressure"/>
+            <ImageButton
+                android:id="@+id/speed"
+                app:srcCompat="@drawable/speed1"
+                android:contentDescription="@string/speed"/>
+            <ImageButton
+                android:id="@+id/split"
+                app:srcCompat="@drawable/splitbill1"
+                android:contentDescription="@string/splitbill"/>
+            <ImageButton
+                android:id="@+id/storage"
+                app:srcCompat="@drawable/storage1"
+                android:contentDescription="@string/storage"/>
+        </TableRow>
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/temperature"
+                app:srcCompat="@drawable/tempreature1"
+                android:contentDescription="@string/tem"/>
+            <ImageButton
+                android:id="@+id/time"
+                app:srcCompat="@drawable/time1"
+                android:contentDescription="@string/time"/>
+            <ImageButton
+                android:id="@+id/trigonometric"
+                app:srcCompat="@drawable/trigonometry1"
+                android:contentDescription="@string/tri"/>
+            <ImageButton
+                android:id="@+id/volume"
+                app:srcCompat="@drawable/volume1"
+                android:contentDescription="@string/volume"/>
+        </TableRow>
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/about"
+                app:srcCompat="@drawable/about"
+                android:contentDescription="@string/about"/>
+
+            <ImageButton
+                android:id="@+id/contact"
+                app:srcCompat="@drawable/contact"
+                android:contentDescription="@string/con"/>
+            <ImageButton
+                android:id="@+id/feedback"
+                app:srcCompat="@drawable/feedback"
+                android:contentDescription="@string/fed"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,709 @@
+<resources>
+    <string name="app_name">Switch</string>
+    <string name="angle">Angle</string>
+    <string name="area">Area</string>
+    <string name="ascii">ASCII</string>
+    <string name="binary">Binary</string>
+    <string name="bitcoin">Bitcoin</string>
+    <string name="bitcoin2">Bitcoin2</string>
+    <string name="circle">Circle</string>
+    <string name="currency">Currency</string>
+    <string name="current">Current</string>
+    <string name="energy">Energy</string>
+    <string name="force">Force</string>
+    <string name="gst">GST</string>
+    <string name="length">Length</string>
+    <string name="mass">Mass</string>
+    <string name="operation">Operatio</string>
+    <string name="power">Power</string>
+    <string name="pressure">Pressure</string>
+    <string name="speed">Speed</string>
+    <string name="splitbill">SplitBill</string>
+    <string name="storage">Storage</string>
+    <string name="tem">Temperature</string>
+    <string name="time">Time</string>
+    <string name="tri">Trigonometric</string>
+    <string name="volume">Volume</string>
+
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="convert">Convert</string>
+    <string name="value">Value</string>
+    <string name="op">Price</string>
+    <string name="select">Select</string>
+    <string name="character">Character</string>
+    <string name="cal">Calculate</string>
+    <string name="about">About</string>
+    <string name="con">Contact</string>
+    <string name="fed">Feedback</string>
+    <string-array name="currency1">
+        <item>Afghanistan Afghani AFN</item>
+        <item>Akrotiri and Dhekelia Euro EUR</item>
+        <item>Aland Islands Euro EUR</item>
+        <item>Albania Albanian Lek ALL</item>
+        <item>Algeria Dinar DZD</item>
+        <item>American Samoa Dollar USD</item>
+        <item>Andorra European Euro EUR</item>
+        <item>Angola Angolan Kwanza AOA</item>
+        <item>Anguilla East Caribbean Dollar XCD</item>
+        <item>Antigua and Barbuda East Caribbean Dollar XCD</item>
+        <item>Argentina Argentine Peso ARS</item>
+        <item>Armenia Armenian Dram AMD</item>
+        <item>Aruba Aruban Florin AWG</item>
+        <item>Ascension Island Saint Helena Pound SHP</item>
+        <item>Australia Australian Dollar AUD</item>
+        <item>Austria European Euro EUR</item>
+        <item>Azerbaijan Azerbaijan Manat AZN</item>
+        <item>Bahamas Bahamian Dollar BSD</item>
+        <item>Bahrain Bahraini Dinar BHD</item>
+        <item>Bangladesh Bangladeshi Taka BDT</item>
+        <item>Barbados Barbadian Dollar BBD</item>
+        <item>Belarus Belarusian Ruble BYN</item>
+        <item>Belgium Euro EUR</item>
+        <item>Belize Belize Dollar BZD</item>
+        <item>Benin Franc XOF</item>
+        <item>Bermuda Bermudian Dollar BMD</item>
+        <item>Bhutan Bhutanese Ngultrum BTN</item>
+        <item>Bolivia Bolivian Boliviano BOB</item>
+        <item>Bonaira United States Dollar USD</item>
+        <item>Bosnia and Herzegovina Convertible Mark BAM</item>
+        <item>Botswana Botswana Pula BWP</item>
+        <item>Brazil Brazilian Real BRL</item>
+        <item>British Indian Ocean Territory United States Dollar USD</item>
+        <item>British Virgin Islands United States Dollar USD</item>
+        <item>Brunei Dollar BND</item>
+        <item>Bulgaria Bulgarian Lev BGN</item>
+        <item>Burkina Faso Franc XOF</item>
+        <item>Burundi Burundi Franc BIF</item>
+        <item>Cabo Verde Cabo Verdean Escudo CVE</item>
+        <item>Cambodia Cambodian Riel KHR</item>
+        <item>Cameroon Franc XAF</item>
+        <item>Canada Canadian Dollar CAD</item>
+        <item>Caribbean Netherlands USD</item>
+        <item>Cayman Islands Dollar KYD</item>
+        <item>Central African Republic Franc XAF</item>
+        <item>Chad Franc XAF</item>
+        <item>Chatham Islands Dollar NZD</item>
+        <item>Chile Chilean Peso CLP</item>
+        <item>China Chinese Yuan Renminbi CNY</item>
+        <item>Christmas Island Dollar AUD</item>
+        <item>Cocos Islands Dollar AUD</item>
+        <item>Colombia Colombian Peso COP</item>
+        <item>Comoros Comorian Franc KMF</item>
+        <item>Congo Republic Congolese Franc CDF</item>
+        <item>Congo Republic Central African CFA Franc XAF</item>
+        <item>Cook Islands Cook Islands Dollar NZD</item>
+        <item>Costa Rica Costa Rican Colon CRC</item>
+        <item>Cote D Ivoire Franc XOF</item>
+        <item>Croatia Croatian Kuna HRK</item>
+        <item>Cuba Cuban Peso CUP</item>
+        <item>Curacao Antillean Guilder ANG</item>
+        <item>Cyprus Euro EUR</item>
+        <item>Czechia Czech Koruna CZK</item>
+        <item>Denmark Danish Krone DKK</item>
+        <item>Djibouti Djiboutian franc DJF</item>
+        <item>Dominica East Caribbean Dollar XCD</item>
+        <item>Dominican Republic Dominican Peso DOP</item>
+        <item>Ecuador Dollar USD</item>
+        <item>Egypt Egyptian Pound EGP</item>
+        <item>El Salvador USD</item>
+        <item>Equatorial Guinea Franc XAF</item>
+        <item>Eritrea Eritrean Nakfa ERN</item>
+        <item>Estonia European Euro EUR</item>
+        <item>Eswatini Swazi Lilangeni SZL</item>
+        <item>Ethiopia Ethiopian Birr ETB</item>
+        <item>Falkland Islands Pound FKP</item>
+        <item>Faroe Islands Krona FOK</item>
+        <item>Fiji Fijian Dollar FJD</item>
+        <item>Finland Euro EUR</item>
+        <item>France Euro EUR</item>
+        <item>French Guiana Euro EUR</item>
+        <item>French Polynesia Franc XPF</item>
+        <item>Gabon Franc XAF</item>
+        <item>Gambia Dalasi GMD</item>
+        <item>Georgia Georgian Lari GEL</item>
+        <item>Germany European Euro EUR</item>
+        <item>Ghana Ghanaian Cedi GHS</item>
+        <item>Gibraltar Gibraltar Pound GIP</item>
+        <item>Greece Euro EUR</item>
+        <item>Greenland Krone DKK</item>
+        <item>Grenada Dollar XCD</item>
+        <item>Guadeloupe Euro EUR</item>
+        <item>Guam Dollar USD</item>
+        <item>Guatemala Guatemalan Quetzal GTQ</item>
+        <item>Guernsey Guernsey Pound GGP</item>
+        <item>Guinea Guinean Franc GNF</item>
+        <item>Guinea Bissau Franc XOF</item>
+        <item>Guyana Guyanese Dollar GYD</item>
+        <item>Haiti Haitian Gourde HTG</item>
+        <item>Honduras Honduran Lempira HNL</item>
+        <item>Hong Kong Dollar HKD</item>
+        <item>Hungary Hungarian Forint HUF</item>
+        <item>Iceland Icelandic Krona ISK</item>
+        <item>India Indian Rupee INR</item>
+        <item>Indonesia Indonesian Rupiah IDR</item>
+        <item>International Monetary Fund IMF XDR</item>
+        <item>Iran Iranian Rial IRR</item>
+        <item>Iraq Iraqi Dinar IQD</item>
+        <item>Ireland European euro EUR</item>
+        <item>Isle of Man Manx Pound IMP</item>
+        <item>Israel Israeli New Shekel ILS</item>
+        <item>Italy European Euro EUR</item>
+        <item>Jamaica Jamaican Dollar JMD</item>
+        <item>Japan Japanese Yen JPY</item>
+        <item>Jersey Pound JEP</item>
+        <item>Jordan Jordanian Dinar JOD</item>
+        <item>Kazakhstan Kazakhstani Tenge KZT</item>
+        <item>Kenya Kenyan Shilling KES</item>
+        <item>Kiribati Australian Dollar AUD</item>
+        <item>Kosovo European Euro EUR</item>
+        <item>Kuwait Kuwaiti Dinar KWD</item>
+        <item>Kyrgyzstan Kyrgyzstani Som KGS</item>
+        <item>Laos Lao Kip LAK</item>
+        <item>Latvia Euro EUR</item>
+        <item>Lebanon Lebanese Pound LBP</item>
+        <item>Lesotho Lesotho Loti LSL</item>
+        <item>Liberia Liberian Dollar LRD</item>
+        <item>Libya Libyan Dinar LYD</item>
+        <item>Liechtenstein Swiss Franc CHF</item>
+        <item>Lithuania Euro EUR</item>
+        <item>Luxembourg Euro EUR</item>
+        <item>Macau Macanese Pataca MOP</item>
+        <item>Madagascar Malagasy Ariary MGA</item>
+        <item>Malawi Malawian Kwacha MWK</item>
+        <item>Malaysia Malaysian Ringgit MYR</item>
+        <item>Maldives Maldivian Rufiyaa MVR</item>
+        <item>Mali Franc XOF</item>
+        <item>Malta Euro EUR</item>
+        <item>Marshall Islands Dollar USD</item>
+        <item>Martinique Euro EUR</item>
+        <item>Mauritania Mauritanian Ouguiya MRO</item>
+        <item>Mauritius Mauritian Rupee MUR</item>
+        <item>Mayotte Euro EUR</item>
+        <item>Mexico Mexican Peso MXN</item>
+        <item>Micronesia Dollar USD</item>
+        <item>Moldova Moldovan Leu MDL</item>
+        <item>Monaco Euro EUR</item>
+        <item>Mongolia Mongolian Tugrik MNT</item>
+        <item>Montenegro Euro EUR</item>
+        <item>Montserrat East Caribbean Dollar XCD</item>
+        <item>Morocco Moroccan Dirham MAD</item>
+        <item>Mozambique Mozambican Metical MZN</item>
+        <item>Myanmar Myanmar Kyat MMK</item>
+        <item>Namibia Namibian Dollar NAD</item>
+        <item>Nauru Australian Dollar AUD</item>
+        <item>Nepal Nepalese Rupee NPR</item>
+        <item>Netherlands European Euro EUR</item>
+        <item>New Caledonia CFP Franc XPF</item>
+        <item>New Zealand Dollar NZD</item>
+        <item>Nicaragua Nicaraguan Cordoba NIO</item>
+        <item>Niger Franc XOF</item>
+        <item>Nigeria Nigerian Naira NGN</item>
+        <item>Niue Dollar NZD</item>
+        <item>Norfolk Island Dollar AUD</item>
+        <item>Northern Mariana Islands Dollar USD</item>
+        <item>North Korea North Korean Won KPW</item>
+        <item>North Macedonia Macedonian Denar MKD</item>
+        <item>Norway Norwegian Krone NOK</item>
+        <item>Oman Omani Rial OMR</item>
+        <item>Pakistan Pakistani Rupee PKR</item>
+        <item>Palau Dollar USD</item>
+        <item>Palestine Shekel ILS</item>
+        <item>Panama Dollar USD</item>
+        <item>Papua New Guinea Kina PGK</item>
+        <item>Paraguay Paraguayan Guarani PYG</item>
+        <item>Peru Peruvian Sol PEN</item>
+        <item>Philippines Philippine Peso PHP</item>
+        <item>Pitcairn Islands Dollar NZD</item>
+        <item>Poland Polish Zloty PLN</item>
+        <item>Portugal European Euro EUR</item>
+        <item>Puerto Rico Dollar USD</item>
+        <item>Qatar Qatari Riyal QAR</item>
+        <item>Reunion Euro EUR</item>
+        <item>Romania Romanian Leu RON</item>
+        <item>Russia Russian Ruble RUB</item>
+        <item>Rwanda Rwandan Franc RWF</item>
+        <item>Saba Dollar USD</item>
+        <item>Saint Euro EUR</item>
+        <item>Saint Helena Saint Helena Pound SHP</item>
+        <item>Saint Kitts Dollar XCD</item>
+        <item>Saint Lucia Dollar XCD</item>
+        <item>Saint Martin Euro EUR</item>
+        <item>Saint Pierre and Miquelon Euro EUR</item>
+        <item>Saint Vincent Dollar XCD</item>
+        <item>Samoa Samoan Tala WST</item>
+        <item>San Marino Euro EUR</item>
+        <item>Sao Tome and Principe Sao Dobra STN</item>
+        <item>Saudi Arabia Riyal SAR</item>
+        <item>Senegal West African CFA Franc XOF</item>
+        <item>Serbia Serbian Dinar RSD</item>
+        <item>Seychelles Seychellois Rupee SCR</item>
+        <item>Sierra Leone Sierra Leonean Leone SLL</item>
+        <item>Singapore Singapore Dollar SGD</item>
+        <item>Sint Eustatius Dollar USD</item>
+        <item>Sint Maarten Guilder ANG</item>
+        <item>Slovakia Euro EUR</item>
+        <item>Solomon Island Dollar SBD</item>
+        <item>Somalia Somali Dhilling SOS</item>
+        <item>South Africa South African Rand ZAR</item>
+        <item>South Georgia Island Pound Sterling GBP</item>
+        <item>South Korea South Korean Won KRW</item>
+        <item>South Sudan South Sudanese Pound SSP</item>
+        <item>Spain Euro EUR</item>
+        <item>Sri Lanka Sri Lankan Rupee LKR</item>
+        <item>Sudan Sudanese Pound SDG</item>
+        <item>Suriname Surinamese Dollar SRD</item>
+        <item>Svalbard and Jan Mayen Norwegian Krone NOK</item>
+        <item>Sweden Swedish Krona SEK</item>
+        <item>Switzerland Swiss Franc CHF</item>
+        <item>Syria Syrian Pound SYP</item>
+        <item>Taiwan New Taiwan Dollar TWD</item>
+        <item>Tajikistan Tajikistani Somoni TJS</item>
+        <item>Tanzania Tanzanian Shilling TZS</item>
+        <item>Thailand Thai Baht THB</item>
+        <item>Timor Leste Dollar USD</item>
+        <item>Togo Franc XOF</item>
+        <item>Tokelau Dollar NZD</item>
+        <item>Tonga Tongan Pa anga TOP</item>
+        <item>Trinidad and Tobago Dollar TTD</item>
+        <item>Tristan Da Cunha Pound Sterling GBP</item>
+        <item>Tunisia Tunisian Dinar TND</item>
+        <item>Turkey Turkish Lira TRY</item>
+        <item>Turkmenistan Turkmen Manat TMT</item>
+        <item>Turks and Caicos Islands Dollar USD</item>
+        <item>Tuvalu Australian Dollar AUD</item>
+        <item>Uganda Ugandan Shilling UGX</item>
+        <item>Ukraine Ukrainian Hryvnia UAH</item>
+        <item>United Arab Emirates UAE Dirham AED</item>
+        <item>United Kingdom Pound Sterling GBP</item>
+        <item>United States of America Dollar USD</item>
+        <item>Uruguay Uruguayan Peso UYU</item>
+        <item>US Virgin Islands Dollar USD</item>
+        <item>Uzbekistan Uzbekistani Som UZS</item>
+        <item>Vanuatu Vanuatu Vatu VUV</item>
+        <item>Vatican City Euro EUR</item>
+        <item>Venezuela Venezuelan Bolivar VEB</item>
+        <item>Vietnam Vietnamese Dong VND</item>
+        <item>Wake Island Dollar USD</item>
+        <item>Wallis and Futuna CFP Franc XPF</item>
+        <item>Yemen Yemeni Rial YER</item>
+        <item>Zambia Zambian Kwacha ZMW</item>
+        <item>Zimbabwe Dollar USD</item>
+    </string-array>
+    <string-array name="gst">
+        <item>5%</item>
+        <item>12%</item>
+        <item>18%</item>
+        <item>28%</item>
+    </string-array>
+    <string-array name="nogst">
+        <item>No GST</item>
+        <item>With GST</item>
+    </string-array>
+    <string-array name="binary">
+        <item>Binary</item>
+        <item>Octal</item>
+        <item>Hexadecimal</item>
+    </string-array>
+    <string-array name="operation">
+        <item>Even Or Odd</item>
+        <item>Positive Or Negative</item>
+        <item>Factorial</item>
+        <item>Reverse</item>
+        <item>Square</item>
+        <item>Cube</item>
+        <item>Palindrome Number</item>
+        <item>Prime Number</item>
+        <item>Cube</item>
+        <item>Cube</item>
+    </string-array>
+    <string-array name="Trigonometric">
+        <item>Sin</item>
+        <item>Cos</item>
+        <item>Tan</item>
+        <item>Cot</item>
+        <item>Sec</item>
+        <item>Cosec</item>
+    </string-array>
+    <string-array name="circle">
+        <item>Area</item>
+        <item>Circumference</item>
+        <item>Diameter</item>
+        <item>Radius</item>
+    </string-array>
+    <string-array name="mass">
+        <item>Tonne t</item>
+        <item>Kilogram kg</item>
+        <item>Gram g</item>
+        <item>Milligram mg</item>
+        <item>Microgram μg</item>
+        <item>Quintal q</item>
+        <item>Pounds lb</item>
+        <item>Ounce oz</item>
+        <item>Carat ct</item>
+        <item>Grain gr</item>
+        <item>Long ton l.t</item>
+        <item>Short ton sh.t</item>
+        <item>UK hundredweight cwt</item>
+        <item>US hundredweight cwt</item>
+        <item>Stone st</item>
+        <item>Dram dr</item>
+        <item>Dan dan</item>
+        <item>Jin jin</item>
+        <item>Qian qian</item>
+        <item>Liang liang</item>
+        <item>Jin (Taiwan)jin(tw)</item>
+    </string-array>
+    <string-array name="angle">
+        <item>Arcminute</item>
+        <item>Arcsecond</item>
+        <item>Circle</item>
+        <item>Degree [°]</item>
+        <item>Gon</item>
+        <item>Grad</item>
+        <item>Mil (Nato)</item>
+        <item>Mil (Soviet Union)</item>
+        <item>Mil (Sweden)</item>
+        <item>Octant</item>
+        <item>Quadrant</item>
+        <item>Radian</item>
+        <item>Revolution</item>
+        <item>Sextant</item>
+        <item>Sign</item>
+        <item>Turn</item>
+    </string-array>
+    <string-array name="area">
+        <item>Acres</item>
+        <item>Ares</item>
+        <item>Circular inches</item>
+        <item>Hectares</item>
+        <item>Hides</item>
+        <item>Roods</item>
+        <item>Square centimeters [cm²]</item>
+        <item>Square feet (US and UK)</item>
+        <item>Square feet (US survey)</item>
+        <item>Square inches</item>
+        <item>Square kilometers [km²]</item>
+        <item>Square meters [m²]</item>
+        <item>Square miles</item>
+        <item>Square millimeters [mm²]</item>
+        <item>Squares (of timber)</item>
+        <item>Square rods (or poles)</item>
+        <item>Square yards</item>
+        <item>Townships</item>
+    </string-array>
+    <string-array name="storage">
+        <item>Bits</item>
+        <item>Bytes</item>
+        <item>Kilobits [Kb]</item>
+        <item>Kilobytes [KB]</item>
+        <item>Megabits [Mb]</item>
+        <item>Megabytes [MB]</item>
+        <item>Gigabits [Gb]</item>
+        <item>Gigabytes [GB]</item>
+        <item>Terabits [Tb]</item>
+        <item>Terabytes [TB]</item>
+        <item>Petabits [Pb]</item>
+        <item>Petabytes [PB]</item>
+        <item>Exabits [Eb]</item>
+        <item>Exabytes [EB]</item>
+    </string-array>
+    <string-array name="current">
+        <item>Abampere [abA]</item>
+        <item>Ampere [A]</item>
+        <item>Biot [Bi]</item>
+        <item>Centiampere</item>
+        <item>Coulomb/second</item>
+        <item>EMU of current</item>
+        <item>ESU of current</item>
+        <item>Franklin/second</item>
+        <item>Gaussian electric current</item>
+        <item>Gigaampere</item>
+        <item>Gilbert [Gi]</item>
+        <item>Kiloampere [kA]</item>
+        <item>Megaampere</item>
+        <item>Microampere</item>
+        <item>Milliampere [mA]</item>
+        <item>Milliamp</item>
+        <item>Nanoampere</item>
+        <item>Picoampere</item>
+        <item>Siemens volt</item>
+        <item>Statampere [stA]</item>
+        <item>Teraampere</item>
+        <item>Volt/ohm</item>
+        <item>Watt/volt</item>
+        <item>Weber/henry</item>
+    </string-array>
+    <string-array name="energy">
+        <item>Btu (th)</item>
+        <item>Btu (mean)</item>
+        <item>Calories (IT)</item>
+        <item>Calories (th)</item>
+        <item>Calories (mean)</item>
+        <item>Calories (15C)</item>
+        <item>Calories (20C)</item>
+        <item>Calories (food)</item>
+        <item>Centigrade heat units</item>
+        <item>Dutch natural gas (m3,LHV)</item>
+        <item>Electron volts [eV]</item>
+        <item>Ergs</item>
+        <item>Exajoules [EJ]</item>
+        <item>Foot pound force [ft lbs]</item>
+        <item>Foot poundals</item>
+        <item>Gasoline (L)</item>
+        <item>Gigajolules [GJ]</item>
+        <item>Gigawatt hours [GWh]</item>
+        <item>Horsepower hours</item>
+        <item>Inch pound force [in lbf]</item>
+        <item>Joules [J]</item>
+        <item>Kilocalories (IT)</item>
+        <item>Kilocalories (th)</item>
+        <item>Kilogram force meters</item>
+        <item>Kilojoules [kJ]</item>
+        <item>Kilowatt hours [kWh]</item>
+        <item>Megajoules [MJ]</item>
+        <item>Megawatt hours [MWh]</item>
+        <item>Newton meters [Nm]</item>
+        <item>Petajoules [PJ]</item>
+        <item>Treajoules [TJ]</item>
+        <item>Terawatt hours [TWh]</item>
+        <item>Therms</item>
+        <item>Watt seconds [Ws]</item>
+        <item>Watt hours [Wh]</item>
+    </string-array>
+    <string-array name="force">
+        <item>Dynes [dyn]</item>
+        <item>Kilogram force[kgf]</item>
+        <item>Kilonewtones [kN]</item>
+        <item>Kips</item>
+        <item>Meganewtons [MN]</item>
+        <item>Newtons [N]</item>
+        <item>Pounds force [lbf]</item>
+        <item>Poundals [pdl]</item>
+        <item>Sthene [sn]</item>
+        <item>Tonnes force</item>
+        <item>Tone force (UK)</item>
+        <item>Tone force (US)</item>
+    </string-array>
+    <string-array name="length">
+        <item>Angstroms [A]</item>
+        <item>Astronomical units [au]</item>
+        <item>Barleycorns</item>
+        <item>Cables</item>
+        <item>Centimeters [cm]</item>
+        <item>Chains (surveyors)</item>
+        <item>Decimeters [dm]</item>
+        <item>Ells (UK)</item>
+        <item>Ems (Pica)</item>
+        <item>Fathoms</item>
+        <item>Feet (UK and US)</item>
+        <item>Feet (US survey)</item>
+        <item>Furlongs</item>
+        <item>Hands</item>
+        <item>Hectometers [hm]</item>
+        <item>Inches [in]</item>
+        <item>Kilometers [km]</item>
+        <item>Light years</item>
+        <item>Meters [m]</item>
+        <item>Micrometers [μm]</item>
+        <item>Mil</item>
+        <item>Miles (US and UK)</item>
+        <item>Miles (nautical, international)</item>
+        <item>Miles (nautical, UK)</item>
+        <item>Millimeters [mm]</item>
+        <item>Nanometers [nm]</item>
+        <item>Parsecs</item>
+        <item>Picometers [pm]</item>
+        <item>Scandinavian mile</item>
+        <item>Thou</item>
+        <item>Yards [yd]</item>
+    </string-array>
+    <string-array name="power">
+        <item>Btn/hour</item>
+        <item>Btn/minute</item>
+        <item>Btn/second</item>
+        <item>Calories(th)/hour</item>
+        <item>Calories(th)/minute</item>
+        <item>Calories(th)/second</item>
+        <item>Foot pounds force/minute</item>
+        <item>Foot pounds force/second</item>
+        <item>Gigawatts [GW]</item>
+        <item>Horsepowers (electric)</item>
+        <item>Horsepowers (international)</item>
+        <item>Horsepowers (water)</item>
+        <item>Horsepowers (metric)</item>
+        <item>Watts [W]</item>
+        <item>Joules/hour</item>
+        <item>Joules/minute</item>
+        <item>Joules/seconds</item>
+        <item>Kilocalories(th)/hour</item>
+        <item>Kilocalories(th)/minute</item>
+        <item>Kilogram force meters/hour</item>
+        <item>Kilogram force meters/minute</item>
+        <item>Kilowatts [kW]</item>
+        <item>Megawatts [MW]</item>
+        <item>Terawatts [TW]</item>
+        <item>Ton of refrigeration [TR]</item>
+        <item>Petawatts [PW]</item>
+    </string-array>
+    <string-array name="pressure">
+        <item>Atmospheres [atm]</item>
+        <item>Bars</item>
+        <item>Centimeters mercury</item>
+        <item>Centimeters water</item>
+        <item>Feet of water</item>
+        <item>Hectopascals [hPa]</item>
+        <item>Inches of water</item>
+        <item>Inches of mercury</item>
+        <item>Kilogram force/sq.centimeter</item>
+        <item>Kilogram force/sq.meter</item>
+        <item>Kilonewtons/sq.meter</item>
+        <item>Kilonewtons/sq.millimeter</item>
+        <item>Kilopascals [kPa]</item>
+        <item>Kips/sq.inch</item>
+        <item>Meganewtones/sq.meter</item>
+        <item>Meganewtones/sq.millimeter</item>
+        <item>Megapascals [MPa]</item>
+        <item>Meter of water</item>
+        <item>Millibars</item>
+        <item>Millimeters of mercury [mmHg]</item>
+        <item>Millimeters of water</item>
+        <item>Newtons/sq.centimeter [N/cm2]</item>
+        <item>Newtons/sq.meter [N/m2]</item>
+        <item>Newtons/sq.millimeter [N/mm2]</item>
+        <item>Pascals [Pa]</item>
+        <item>Pounds force/sq.foot</item>
+        <item>Pounds force/sq.inch [psi]</item>
+        <item>Poundals/sq.foot</item>
+        <item>Tons(Uk) force/sq.foot</item>
+        <item>Tons(Uk) force/sq.inch</item>
+        <item>Tons(US) force/sq.foot</item>
+        <item>Tons(US) force/sq.inch</item>
+        <item>Tonnes force/sq.cm</item>
+        <item>Tonnes force/sq.meter</item>
+        <item>torr(mm Hg 0 C)</item>
+    </string-array>
+    <string-array name="speed">
+        <item>Centimeters/minute</item>
+        <item>Centimeters/second</item>
+        <item>Feet/hour</item>
+        <item>Feet/minute</item>
+        <item>Feet/second [ft/s]</item>
+        <item>Inches/minute</item>
+        <item>Inches/second</item>
+        <item>Kilometers/hour[km/h]</item>
+        <item>Kilometers/second</item>
+        <item>Knots [kn]</item>
+        <item>Mach number (ISA/Sea level)</item>
+        <item>Meter/hour [m/h]</item>
+        <item>Meter/minute</item>
+        <item>Meter/seconds [m/s]</item>
+        <item>Miles/hour [mph]</item>
+        <item>Miles/minute</item>
+        <item>Mile/second</item>
+        <item>Nautical miles/hour</item>
+        <item>Nm/24hr</item>
+        <item>Speed of light</item>
+        <item>Speed of sound</item>
+        <item>Yards/hour</item>
+        <item>Yards/minute</item>
+        <item>yards/second</item>
+    </string-array>
+    <string-array name="temperature">
+        <item>Celsius [C]</item>
+        <item>Fahrenheit [F]</item>
+        <item>Kelvin [K]</item>
+    </string-array>
+    //start
+    <string-array name="time">
+        <item>Centuries</item>
+        <item>Days [d]</item>
+        <item>Decades</item>
+        <item>Femtoseconds [fs]</item>
+        <item>Fortnights</item>
+        <item>Hours [h]</item>
+        <item>Microseconds [μs]</item>
+        <item>Millenia</item>
+        <item>Milliseconds [ms]</item>
+        <item>Minutes [min]</item>
+        <item>Months (Common)</item>
+        <item>Moths (Synodic)</item>
+        <item>Nanoseconds [ns]</item>
+        <item>Picoseconds [ps]</item>
+        <item>Quarters (Common)</item>
+        <item>Seconds [s]</item>
+        <item>Shakes</item>
+        <item>Weeks</item>
+        <item>Years (Common) [y]</item>
+        <item>Years (Average Gregorian)</item>
+        <item>Years (Julian)</item>
+        <item>Years (Leap)</item>
+        <item>Years (Tropical)</item>
+    </string-array>
+    <string-array name="volume">
+        <item>Acre Foot</item>
+        <item>Barrels (oil) [bbl]</item>
+        <item>Bushels (UK)</item>
+        <item>Bushels (US)</item>
+        <item>Centiliters</item>
+        <item>Cubic centimeters [cm3]</item>
+        <item>Cubic decimeters [dm3]</item>
+        <item>Cubic decimeters</item>
+        <item>Cubic feet [ft3]</item>
+        <item>Cubic inches</item>
+        <item>Cubic kilometers</item>
+        <item>Cubic meters[m3]</item>
+        <item>Cubic mile</item>
+        <item>Cubic millimeters</item>
+        <item>Cubic yards</item>
+        <item>Cups</item>
+        <item>Deciliters</item>
+        <item>Dram (imperial)</item>
+        <item>Dram (US)</item>
+        <item>Fluid ounces (imperial) [fl oz]</item>
+        <item>Fluid ounces (US) [fl oz]</item>
+        <item>Gallons (imperial) [gal]</item>
+        <item>Gallons dry (US)</item>
+        <item>Gallons liquid (US) [gal]</item>
+        <item>Gill (imperial) [gi]</item>
+        <item>Gill (US) [gi]</item>
+        <item>Kiloliters [kl]</item>
+        <item>Liters [l or L]</item>
+        <item>Liters (1901to1964)</item>
+        <item>Milliliters [ml]</item>
+        <item>Microliters [μl]</item>
+        <item>Nanoliters [nl]</item>
+        <item>Picoliters [pl]</item>
+        <item>Pints (imperial) [pt]</item>
+        <item>Pints dry (US)</item>
+        <item>Pints liquid(US) [pt]</item>
+        <item>Quarts (imperial) [qt]</item>
+        <item>Quarts dry (US)</item>
+        <item>Quarts liquid (US) [qt]</item>
+        <item>Table spoons</item>
+        <item>Tea spoons</item>
+    </string-array>
+
+    <string name="ab">
+        \t \t\t\t \t\tSwitch is a simple, smart and elegant tool with more than 15 categories of units that are used.
+        In daily life.Simple and easy to use interface.
+        Features and wide range of categories, switch takes up just less than 10 MB storage in your device.
+        Vast usage, easy handling, Simple design, Premium Contents.
+\n\n
+     BEST FEATURES OF SWITCH APP\n\n
+✓ Built-In real time Currency Converter with 150 world currencies and their latest exchange rates.\n\n
+✓ 15+ unit categories.\n\n
+✓ Has most important conversion tools that are used in daily life including Temperature, Volume, Speed, Weight, Computer Storage, Angle, Power, Force, Energy, and much more…\n\n
+✓Offline Currency Converter feature lets you to convert all the world currencies without connecting to the internet.\n\n
+✓ Has the highest number of unit conversion categories among all other unit converters.\n\n
+</string>
+    <string name="contact">
+        \n\nEmail:-\niamswitch007@gmail.com
+        \n
+        \n WhatsApp:- +91 72767 36488
+    </string>
+    <string name="feedback">Feedback
+    </string>
+    <string name="feedback2">\n<a href="https://forms.gle/DuPyBNQf88ow9nNR6">Click Here</a>
+    </string>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="20dip">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dip">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="30dip"
+            android:paddingTop="20dip">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="140dip"
+                android:layout_height="140dip"
+                android:scaleType="fitXY"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/angle2"/>
+        </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/value"
+        android:inputType="numberDecimal|numberSigned"
+        android:paddingBottom="20dip" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:paddingTop="20dip"
+                android:text="@string/from"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="left"/>
+        </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:entries="@array/angle"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:paddingTop="20dip"
+        android:drawSelectorOnTop="true"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:text="@string/to"
+                android:paddingTop="20dip"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="left"/>
+       </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:entries="@array/angle"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:paddingTop="20dip"
+        android:drawSelectorOnTop="true"
+         />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button"
+        android:text="@string/convert"
+        android:textColor="#FFFFFF"  />
+    </LinearLayout>
+</ScrollView>
